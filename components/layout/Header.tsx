@@ -89,7 +89,7 @@ const Header: React.FC = () => {
             </div>
 
             {/* last */}
-            <div className="flex flex-wrap items-center justify-between py-5 px-10 text-[#616161]">
+            <div className="flex flex-wrap items-center justify-between py-5 pl-10 text-[#616161]">
                 {[
                     { img: rooms, label: "Rooms" },
                     { img: mansion, label: "Mansion" },
@@ -116,9 +116,9 @@ const Header: React.FC = () => {
                                 <Image
                                  src={item.img} 
                                  alt={item.label} 
-                                 className=" w-8 h-8"
+                                 className=" w-7 h-7"
                                 />
-                                <p className="text-sm font-medium ">{item.label}</p>
+                                <p className="text-sm font-small ">{item.label}</p>
                         </button>
                 ))}
             </div>
